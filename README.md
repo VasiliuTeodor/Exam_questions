@@ -179,6 +179,19 @@
      console.log(...numbers, newNumber);
    }
    showArray();
+   //Output: 1 2 3 4 5
    ```
 
    The `rest parameter` keeps the value of the first variable and adds the value of the second one.
+
+   The `Array.from()` property returns an array of objects from any object with a length property or any iterable object.
+
+   For example:
+
+   ```javascript
+   let name = "Andrei";
+   let array = Array.from(name);
+
+   console.log(array);
+   //Ouptut: Array["A", "n", "d", "r", "e", "i"]
+   ```

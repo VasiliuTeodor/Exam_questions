@@ -5,3 +5,8 @@ function showArray() {
   console.log(...numbers, newNumber);
 }
 showArray();
+
+let name = "Andrei";
+let array = Array.from(name);
+
+console.log(array);
