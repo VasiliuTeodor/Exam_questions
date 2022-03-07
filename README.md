@@ -84,4 +84,29 @@
    for (let newValue of arrayOfNumbers) {
      console.log(newValue);
    }
+   //Output: 1 2 3
    ```
+
+4. ES6 new features: `classes`
+
+JvasaScript `classes` are templates for javascript objects. To create a `class` in javascript, use the keyword `class`. However, a method named `constructor` must always be added inside the `class`. The constructor holds the parameters of the class.
+
+```javascript
+class NewClass {
+  constructor(parameter) {
+    //code
+  }
+}
+```
+
+```javascript
+class Phones {
+  constructor(name, price) {
+    this.name = name;
+    this.price = price;
+  }
+}
+
+let myPhone = new Phones("Samsung", 2500);
+console.log(myPhone);
+```
