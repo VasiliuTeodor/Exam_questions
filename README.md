@@ -89,24 +89,96 @@
 
 4. ES6 new features: `classes`
 
-JvasaScript `classes` are templates for javascript objects. To create a `class` in javascript, use the keyword `class`. However, a method named `constructor` must always be added inside the `class`. The constructor holds the parameters of the class.
+   JavaScript `classes` are templates for javascript objects. To create a `class` in javascript, use the keyword `class`. However, a method named `constructor` must always be added inside the `class`. The constructor holds the parameters of the class.
 
-```javascript
-class NewClass {
-  constructor(parameter) {
-    //code
-  }
-}
-```
+   ```javascript
+   class NewClass {
+     constructor(parameter) {
+       //code
+     }
+   }
+   ```
 
-```javascript
-class Phones {
-  constructor(name, price) {
-    this.name = name;
-    this.price = price;
-  }
-}
+   ```javascript
+   class Phones {
+     constructor(name, price) {
+       this.name = name;
+       this.price = price;
+     }
+   }
 
-let myPhone = new Phones("Samsung", 2500);
-console.log(myPhone);
-```
+   let myPhone = new Phones("Samsung", 2500);
+   console.log(myPhone);
+   ```
+
+5. ES6 new features: `promises`
+
+   A `promise` is a javascript object that links a code that `produces something` to a code that `consumes the producing code`
+
+   For example:
+
+   ```javascript
+     const myPromise = new Promise(function(myResolve, myReject) {
+       // code that produces
+       //myResolve - if code is successful
+       //myReject - if code is code is not successful
+     });
+
+     myPromise.then(
+       // code that consumes
+       function(value) {//if code is successful}
+       function(error) {//if code is not successful}
+     );
+   ```
+
+   Example of a `Promise`:
+
+   ```javascript
+   const myPromise = new Promise(function (res, rej) {
+     setTimeout(function () {
+       res("Hello, awesome person!");
+     }, 1000);
+     setTimeout(function () {
+       rej("An error occured");
+     }, 1000);
+   });
+
+   myPromise.then(
+     function (value) {
+       console.log(value);
+     },
+     function (error) {
+       console.log(error);
+     }
+   );
+   ```
+
+   A javascript `promise` can be:
+
+   - Pending
+   - Fulfilled
+   - Rejected
+
+   While a `promise` is `pending`, it means it is `undefined`.
+
+   While a `promise` is `fullfilled`, it means it returns a result `value`.
+
+   While a `promise` is `rejected`, it means an `error` occured.
+
+6. ES6 new features: `rest parameter` and `Array.from()`
+
+   The `rest parameter` allows to treat an indefinite number of arguments as an array.
+
+   For example:
+
+   ```javascript
+   let numbers = [1, 2, 3, 4];
+
+   function showArray() {
+     let newNumber = 5;
+     console.log(...numbers, newNumber);
+   }
+   showArray();
+   ```
+
+   The `rest parameter` keeps the value of the first variable and adds the value of the second one.
