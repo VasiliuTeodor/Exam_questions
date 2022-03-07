@@ -1,5 +1,11 @@
 # Exam_questions
 
+## Client-server architecture
+
+1. Client-server architecture
+
+   It's the `architecture` of a `computer network` in which many `clients`(remote processors), request and receive service from a centralized `server` (a host computer).
+
 ## JS - To learn: `ES6`
 
 1. ES6 new features: `variables`
