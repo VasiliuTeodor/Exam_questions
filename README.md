@@ -49,7 +49,7 @@
    console.log(y);
    let y = 5;
    console.log(y);
-   // In comparison to the other one  where var was used, for let we will get an error and no line of code will be executed.
+   // In comparison to the other one where var was undefined, for let we will get an error and no line of code will be executed.
    ```
 
    This is also the case for `const`, but while the value of let can be changed, like so:
