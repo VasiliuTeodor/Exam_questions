@@ -9,7 +9,7 @@
    But while the `server` can comunicate with more `clients` at the same time, a `client` canno't comunicate with more `servers` at one time.
 
    Examples:  
-   An `api` (meaning the server), gets a request from the `client`. The `api` will send the request further to the `database` and then a response will be sent back with a status depending on wether the request was succesful or not.
+   An `api` (meaning the server), gets a request from the `client`. The `api` will send the request further to the `database` and then a response will be sent back with a status depending on whether the request was succesful or not.
 
    ![alt.txt](/IMAGES/client-server-comunication.png)
 
