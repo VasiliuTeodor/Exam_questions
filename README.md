@@ -1,10 +1,35 @@
 # Exam_questions
 
-## Client-server architecture
+## Client-server-database architecture
 
-1. Client-server architecture
+1. Client-server-database architecture
 
-   It's the `architecture` of a `computer network` in which many `clients`(remote processors), request and receive service from a centralized `server` (a host computer).
+   It's the `architecture` of a `computer network` in which many `clients`(remote processors), request and receive service from a centralized `server` (a host computer). Many clients can acces the `server`'s informations simultaneously and at the same time, a client computer can perform other tasks.
+
+   But while the `server` can comunicate with more `clients` at the same time, a `client` canno't comunicate with more `servers` at one time.
+
+   Examples:  
+   An `api` (meaning the server), gets a request from the `client`. The `api` will send the request further to the `database` and then a response will be sent back with a status depending on wether the request was succesful or not.
+
+   ![alt.txt](/IMAGES/client-server-comunication.png)
+
+   There are three different types of `clinet-server-database` architecture:
+
+   - `1-Tier Architecture`, which is the simplest type of `database architecture` that has the `client`, the `server` and the `database` all on the same device. However, such architecture is rarely used in production.
+
+     ![alt.txt](/IMAGES/1-tier.webp)
+
+   - `2-Tier Architecture`, is a `database architecture` where the data is stored on a server called the `second tier`. On this type of architecture, the `client` device is different from the `server` and the `database`. This type of architecture provides direct and faster communication.
+
+     ![alt.txt](/IMAGES/2-tier.webp)
+
+- `3-Tier Architecture`, is the most popular architecture, in which the `client`, `server` and `databse` are all independent from each other. However, while the `2-Tier Architecture`, contained only the `presentation layer`(the client), and the `application layer`(the server/database), the `3-Tier Architecture`, has the following layers:
+
+  1. Presentation layer(your PC, tablet, laptop, phone),
+  2. Application layer(the server),
+  3. Database Server.
+
+  ![alt.txt](/IMAGES/3-tier.webp)
 
 ## JS - To learn: `ES6`
 
