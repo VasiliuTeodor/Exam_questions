@@ -1,5 +1,11 @@
 # Exam_questions
 
+| No. | Questions                                                                   |
+| :-- | :-------------------------------------------------------------------------- |
+| 1   | [Client-server-database architecture](#client-server-database-architecture) |
+| 2   | [Window and Document objects](#window-and-document)                         |
+| 3   | [JavaScript ES6](#js---to-learn-es6)                                        |
+
 ## Client-server-database architecture
 
 1. Client-server-database architecture
@@ -23,7 +29,7 @@
 
      ![alt.txt](/IMAGES/2-tier.webp)
 
-- `3-Tier Architecture`, is the most popular architecture, in which the `client`, `server` and `databse` are all independent from each other. However, while the `2-Tier Architecture`, contained only the `presentation layer`(the client), and the `application layer`(the server/database), the `3-Tier Architecture`, has the following layers:
+- `3-Tier Architecture`, is the most popular architecture, in which the `client`, `server` and `database` are all independent from each other. However, while the `2-Tier Architecture`, contained only the `presentation layer`(the client), and the `application layer`(the server/database), the `3-Tier Architecture`, has the following layers:
 
   1. Presentation layer(your PC, tablet, laptop, phone),
   2. Application layer(the server),
@@ -44,6 +50,8 @@
 ![alt.txt](/IMAGES/windowobject.png)
 
 ## JS - To learn: `ES6`
+
+- JavaScript ES6 (also known as ECMAScript 2015 or ECMAScript 6) is the newer version of JavaScript that was introduced in 2015. ECMAScript is the standard that JavaScript programming language uses. ECMAScript provides the specification on how JavaScript programming language should work.
 
 1. ES6 new features: `variables`
 
