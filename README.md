@@ -9,7 +9,7 @@
    But while the `server` can comunicate with more `clients` at the same time, a `client` canno't comunicate with more `servers` at one time.
 
    Examples:  
-   An `api` (meaning the server), gets a request from the `client`. The `api` will send the request further to the `database` and then a response will be sent back with a status depending on whether the request was succesful or not.
+   An `api` (meaning the server), gets a request from the `client`. The `api` will send the request further to the `database` and then a response will be sent back with a status depending on whether the request was successful or not.
 
    ![alt.txt](/IMAGES/client-server-comunication.png)
 
@@ -30,6 +30,18 @@
   3. Database Server.
 
   ![alt.txt](/IMAGES/3-tier.webp)
+
+## Window and Document
+
+1. Window object
+
+   The `window object` is the top of the object hierarchy, which means that every other object falls inside the `window object`. The `window object` contains the `document`, the `screen`, the `location` and every other elements of the current website. Every website has it's own `window object`.
+
+2. Document object
+
+   The `document object`(the HTML of the website), contains every single `markup` element inside that is specifically in the HTML code or as an HTML code. A javascript object, array, function, etc..., will not be considered part of the `document object` untill is defined as such.
+
+![alt.txt](/IMAGES/windowobject.png)
 
 ## JS - To learn: `ES6`
 
