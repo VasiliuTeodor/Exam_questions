@@ -49,6 +49,91 @@
 
 ![alt.txt](/IMAGES/windowobject.png)
 
+## JS - To learn: `operators`
+
+1. JavaScript `Arithmetic Operators`
+
+   This type of `operators` are used to perform `arithmetic` on `numbers`, like so:
+
+   ```javascript
+   let a = 5;
+   let b = 5;
+   let c = a + b;
+   // Output: 10
+   ```
+
+   This `operators` are:
+
+   | Operator | Description    |
+   | -------- | -------------- |
+   | +        | Addition       |
+   | -        | Substraction   |
+   | \*       | Multiplication |
+   | \*\*     | Exponentiation |
+   | /        | Division       |
+   | %        | Modulus        |
+   | ++(+1)   | Increment      |
+   | --(-1)   | Decrement      |
+
+2. JavaScript `Assignment Operators`
+
+   Assignment operators assign values to javascript variables
+
+   | Operator | Example    | Same as      |
+   | -------- | ---------- | ------------ |
+   | =        | x = y      | x = y        |
+   | +=       | x += y     | x = x + y    |
+   | -=       | x -= y     | x = x - y    |
+   | \*=      | x \*= y    | x = x \* y   |
+   | /=       | x /= y     | x = x/y      |
+   | %=       | x %= y     | x = x%y      |
+   | \*\*=    | x \*\* = y | x = x \*\* y |
+
+   Example:
+
+   ```javascript
+   let a = 10;
+   a += 5;
+   // Output: 15
+   ```
+
+   You can also use this types of operators to concatenate `strings`. For example:
+
+   ```javascript
+   let a = "My name is";
+   a += "Andrew";
+   // Output: "My name is Andrew"
+   ```
+
+   Adding a number to another number will return a sum, but adding a number to a string will always return a string.
+
+   ```javascript
+   let a = 1 + 2;
+   let b = 1 + 2 + "3";
+   let c = "string" + 1;
+
+   // Output a: 3
+   // Output b: "33"
+   // Output c: "string1"
+
+   let d = "3" + 2 + 1;
+   // Output d: this one will return a string of "321", because javascript will always add the values starting from the first one.
+   ```
+
+3. JavaScript `Comparison Operators`
+
+   | Operator | Description             |
+   | -------- | ----------------------- |
+   | ==       | equal to                |
+   | ===      | equal value and type    |
+   | !=       | not equal (different)   |
+   | !==      | not equal value or type |
+   | >        | greater than            |
+   | <        | less than               |
+   | >=       | greater or equal        |
+   | <=       | less or equal           |
+   | ?        | ternary operator        |
+
 ## JS - To learn: `ES6`
 
 - JavaScript ES6 (also known as ECMAScript 2015 or ECMAScript 6) is the newer version of JavaScript that was introduced in 2015. ECMAScript is the standard that JavaScript programming language uses. ECMAScript provides the specification on how JavaScript programming language should work.
