@@ -30,13 +30,13 @@
 
      ![alt.txt](/IMAGES/2-tier.webp)
 
-- `3-Tier Architecture`, is the most popular architecture, in which the `client`, `server` and `database` are all independent from each other. However, while the `2-Tier Architecture`, contained only the `presentation layer`(the client), and the `application layer`(the server/database), the `3-Tier Architecture`, has the following layers:
+   - `3-Tier Architecture`, is the most popular architecture, in which the `client`, `server` and `database` are all independent from each other. However, while the `2-Tier Architecture`, contained only the `presentation layer`(the client), and the `application layer`(the server/database), the `3-Tier Architecture`, has the following layers:
 
-  1. Presentation layer(your PC, tablet, laptop, phone),
-  2. Application layer(the server),
-  3. Database Server.
+     1. Presentation layer(your PC, tablet, laptop, phone),
+     2. Application layer(the server),
+     3. Database Server.
 
-  ![alt.txt](/IMAGES/3-tier.webp)
+![alt.txt](/IMAGES/3-tier.webp)
 
 ## Window and Document
 
