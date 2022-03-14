@@ -368,3 +368,52 @@
    console.log(array);
    //Ouptut: Array["A", "n", "d", "r", "e", "i"]
    ```
+
+## JSON Object vs JavaScript Object
+
+1. The way it's written
+
+   - The very first thing that shows a difference between this types of objects is the way a `JS object` is written in comparison to a `JSON object`. For example:
+
+   ```javascript
+   let objectJS = {
+     id: 1,
+     name: "Andrei",
+   };
+   // This is a javascript object. The key has no double quotes ("").
+
+   let objectJSON = {
+     id: 2,
+     name: "Cosmin",
+   };
+   // This is a JSON object. The key HAS double quotes ("").
+   ```
+
+2. A `JavaScript object` can use a function or a variable as a value for a key, but JSON keys cannot.
+
+   ```javascript
+   let objectJS = {
+     firstName: "Andrew",
+     lastName: function () {
+       console.log(this.firstName);
+     },
+   };
+   // This keyword refers to the js object. In a JSON object you cannot do this.
+   ```
+
+3. A `JavaScript object` cannot be parsed as a `JSON object`.
+
+   ```javascript
+   let objectJS = {
+     id: 1,
+     name: "Andrei",
+   };
+
+   fetch(objectJS)
+     .then((result) => {
+       return result.json();
+     })
+     .then((data) => {
+       console.log(data);
+     }); // will not work because it's not a JSON object
+   ```
