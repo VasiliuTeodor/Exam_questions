@@ -123,6 +123,8 @@
 
 3. JavaScript `Comparison Operators`
 
+   This `operators` compare the _value_ and _type_ of a `variable`.
+
    | Operator | Description             |
    | -------- | ----------------------- |
    | ==       | equal to                |
@@ -135,44 +137,76 @@
    | <=       | less or equal           |
    | ?        | ternary operator        |
 
+4. JavaScript `Ternary Operators`
+
+   The `ternary operators` takes three operands: a `condition` followed by a question mark (`?`), which usually ask if the given variable or function exists, then an expression to ask if the condition is `true`, which is (`:`), then another condition to ask if the condition is `false`. This operator is used an as alterative to an `if...else` statement.
+
+   For example:
+
+   ```javascript
+   function myFunction(isNumber) {
+     return isNumber ? "2.00" : "10.00";
+   }
+
+   console.log(myFunction(true));
+   // Output: '2.00'
+   console.log(myFunction(false));
+   // Output: '10.00'
+   ```
+
+   The code above can also be written like so:
+
+   ```javascript
+   function myFunction2(isNumber2) {
+     if (isNumber2) {
+       return "2.00";
+     } else {
+       return "10.00";
+     }
+   }
+
+   console.log(myFunction2(true));
+   console.log(myFunction2(false));
+   ```
+
 ## JS - To learn: `ES6`
 
 - JavaScript ES6 (also known as ECMAScript 2015 or ECMAScript 6) is the newer version of JavaScript that was introduced in 2015. ECMAScript is the standard that JavaScript programming language uses. ECMAScript provides the specification on how JavaScript programming language should work.
 
 1. ES6 new features: `variables`
 
-   The `let` keyword for defining variables, in comparison to the keyword `var`, has a block scope, which means that a `let variable` cannot be called before initialization.
+The `let` keyword for defining variables, in comparison to the keyword `var`, has a block scope, which means that a `let variable` cannot be called before initialization.
 
-   For example:
+For example:
 
-   ```javascript
-   // For var
-   console.log(x); // This line will return 'undefined'.
-   var x = 5;
-   console.log(x); // While this line will return the value of 'x'.
+```javascript
+// For var
+console.log(x); // This line will return 'undefined'.
+var x = 5;
+console.log(x); // While this line will return the value of 'x'.
 
-   //For let
-   console.log(y);
-   let y = 5;
-   console.log(y);
-   // In comparison to the other one where var was undefined, for let we will get an error and no line of code will be executed.
-   ```
+//For let
+console.log(y);
+let y = 5;
+console.log(y);
+// In comparison to the other one where var was undefined, for let we will get an error and no line of code will be executed.
+```
 
-   This is also the case for `const`, but while the value of let can be changed, like so:
+This is also the case for `const`, but while the value of let can be changed, like so:
 
-   ```javascript
-   let x = 5;
-   x = 10;
-   console.log(x); // Output: 10
-   ```
+```javascript
+let x = 5;
+x = 10;
+console.log(x); // Output: 10
+```
 
-   the value of a `const` variable cannot.
+the value of a `const` variable cannot.
 
-   ```javascript
-   const z = 10;
-   z = 15;
-   console.log(z); //Output: 'TypeError'
-   ```
+```javascript
+const z = 10;
+z = 15;
+console.log(z); //Output: 'TypeError'
+```
 
 2. ES6 new features: `arrow functions`
 
