@@ -8,6 +8,7 @@
 | 2   | [Window and Document objects](#window-and-document)                         |
 | 3   | [JavaScript operators](#js---to-learn-operators)                            |
 | 4   | [JavaScript ES6](#js---to-learn-es6)                                        |
+| 5   | [JSON vs JavaScript objects](#json-object-vs-javascript-object)             |
 
 ## Client-server-database architecture
 
