@@ -4,7 +4,8 @@
 | :-- | :-------------------------------------------------------------------------- |
 | 1   | [Client-server-database architecture](#client-server-database-architecture) |
 | 2   | [Window and Document objects](#window-and-document)                         |
-| 3   | [JavaScript ES6](#js---to-learn-es6)                                        |
+| 3   | [JavaScript operators](#js---to-learn-operators)                            |
+| 4   | [JavaScript ES6](#js---to-learn-es6)                                        |
 
 ## Client-server-database architecture
 
