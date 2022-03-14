@@ -1,5 +1,7 @@
 # Exam_questions
 
+- README made for me especially so I can learn for the final exam of the course in an easier manier. But for whoever wants, if they find my repo helpfull, they can use it to study.
+
 | No. | Questions                                                                   |
 | :-- | :-------------------------------------------------------------------------- |
 | 1   | [Client-server-database architecture](#client-server-database-architecture) |
