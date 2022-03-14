@@ -175,38 +175,38 @@
 
 1. ES6 new features: `variables`
 
-The `let` keyword for defining variables, in comparison to the keyword `var`, has a block scope, which means that a `let variable` cannot be called before initialization.
+   The `let` keyword for defining variables, in comparison to the keyword `var`, has a block scope, which means that a `let variable` cannot be called before initialization.
 
-For example:
+   For example:
 
-```javascript
-// For var
-console.log(x); // This line will return 'undefined'.
-var x = 5;
-console.log(x); // While this line will return the value of 'x'.
+   ```javascript
+   // For var
+   console.log(x); // This line will return 'undefined'.
+   var x = 5;
+   console.log(x); // While this line will return the value of 'x'.
 
-//For let
-console.log(y);
-let y = 5;
-console.log(y);
-// In comparison to the other one where var was undefined, for let we will get an error and no line of code will be executed.
-```
+   //For let
+   console.log(y);
+   let y = 5;
+   console.log(y);
+   // In comparison to the other one where var was undefined, for let we will get an error and no line of code will be executed.
+   ```
 
-This is also the case for `const`, but while the value of let can be changed, like so:
+   This is also the case for `const`, but while the value of let can be changed, like so:
 
-```javascript
-let x = 5;
-x = 10;
-console.log(x); // Output: 10
-```
+   ```javascript
+   let x = 5;
+   x = 10;
+   console.log(x); // Output: 10
+   ```
 
-the value of a `const` variable cannot.
+   the value of a `const` variable cannot.
 
-```javascript
-const z = 10;
-z = 15;
-console.log(z); //Output: 'TypeError'
-```
+   ```javascript
+   const z = 10;
+   z = 15;
+   console.log(z); //Output: 'TypeError'
+   ```
 
 2. ES6 new features: `arrow functions`
 
